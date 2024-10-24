@@ -1,0 +1,42 @@
+.header {
+    width: 15%;
+    background-color: #f90808;
+    border-right: 1px solid #f60606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #f10707; /* Warna hijau */
+    margin: 10px 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Untuk menyelaraskan ikon dan teks */
+  }
+  
+  .nav-icon {
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+    width: 20px; /* Ukuran ikon */
+    height: 20px;
+    display: inline-block; /* Memastikan ikon dan teks berada dalam satu garis */
+  }
+  
+  .nav-item:hover {
+    color: #f10707; /* Warna saat hover */
+  }
+  

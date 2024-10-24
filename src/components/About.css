@@ -1,0 +1,38 @@
+.about-container {
+    max-width: 800px; /* Membatasi lebar kontainer */
+    margin: 0 auto; /* Memusatkan kontainer */
+    padding: 20px;
+    text-align: center; /* Menyelaraskan teks di tengah */
+  }
+  
+  .about-image {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Mempertahankan rasio aspek */
+    margin: 20px 0; /* Margin atas dan bawah */
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Margin bawah */
+  }
+  
+  h2 {
+    margin-top: 20px; /* Margin atas untuk subjudul */
+    font-size: 1.8em; /* Ukuran font untuk subjudul */
+  }
+  
+  p {
+    font-size: 1.1em; /* Ukuran font untuk paragraf */
+    line-height: 1.6; /* Jarak antar baris */
+  }
+  
+  ul {
+    list-style-type: none; /* Menghilangkan bullet */
+    padding: 0; /* Menghilangkan padding */
+  }
+  
+  ul li {
+    margin: 5px 0; /* Margin antar item */
+    font-size: 1em; /* Ukuran font untuk list */
+  }
+  

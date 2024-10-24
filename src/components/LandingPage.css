@@ -1,0 +1,73 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .product-card {
+    width: 30%; /* Ukuran tetap, bisa diubah sesuai kebutuhan */
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .category-filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .product-card button {
+    background-color: #cb1c1c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .product-card button:hover {
+    background-color: #b81a1a;
+  }
+  
+  .product-card img {
+    width: 100%; /* Mengatur lebar gambar sesuai lebar kartu */
+    height: 100px; /* Mengatur tinggi gambar agar sama untuk semua produk */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border-radius: 10px; /* Membuat sudut gambar membulat */
+  }
+  
+  .category-filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; /* Jarak atas untuk memindahkan ke bawah */
+    margin-bottom: 20px; /* Jarak bawah untuk memberikan ruang lebih */
+  }
+  
+  .category-filter button {
+    background-color: #dc3545; /* Warna merah */
+    color: white; /* Warna teks putih */
+    border: none; /* Tanpa border */
+    padding: 10px 20px; /* Padding tombol */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s; /* Transisi saat hover */
+  }
+  
+  .category-filter button:hover {
+    background-color: #c82333; /* Warna merah gelap saat hover */
+  }
+  
+  
